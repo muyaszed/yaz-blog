@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Blog" />
     <div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div>
